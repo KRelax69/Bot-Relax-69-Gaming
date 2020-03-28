@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "#";
 client.on('message', message => {
-    if (message.content == "#سرعه") {
+    if (message.content == "$fast") {
         var x = ["DreamKing",
 "DeathGames",
 "زيرو كنج",
@@ -21,6 +21,7 @@ client.on('message', message => {
 "عش العصفور",
 "هلا بلخميس",
 "الحوت الأزرق",
+"YouTube",		 
 "بلاد الرافدين",
 "كانيكي",
 "توكا",
@@ -59,6 +60,7 @@ client.on('message', message => {
 		"عش العصفور",
 		"هلا بلخميس",
 		"الحوت الأزرق",
+		"YouTube",
         "بلاد الرافدين",
         "كانيكي",
         "توكا",
